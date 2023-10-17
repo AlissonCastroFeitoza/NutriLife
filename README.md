@@ -5,7 +5,7 @@
 
 **NutriManager** é um projeto desenvolvido com o objetivo de auxiliar nutricionistas no gerenciamento de alimentação e nutrição de seus pacientes. A plataforma oferece ferramentas para facilitar o acompanhamento e a análise de dados nutricionais, permitindo que os profissionais da saúde ofereçam um atendimento mais personalizado e eficaz.
 
-<a href="https://www.figma.com/file/LjKIbvEI7LFvZlqHGUbyGZ/NutriManager-V2-(Copy)?type=design&node-id=0-1&mode=design&t=53rUYzauMVikSZR7-0">Protótipo Aqui</a>
+<a href="https://www.figma.com/proto/LjKIbvEI7LFvZlqHGUbyGZ/NutriManager-V2?type=design&node-id=8-1818&t=0dxouJTTAyse0ZxV-0&scaling=min-zoom&page-id=0%3A1">Protótipo Aqui</a>
 
 ## Autores
 
