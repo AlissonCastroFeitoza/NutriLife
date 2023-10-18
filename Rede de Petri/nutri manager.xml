@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<place id="Cadastrar fornecedor">
+<graphics>
+<position x="1470.0" y="435.0"/>
+</graphics>
+<name>
+<value>Cadastrar fornecedor</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cadastrar funcionários">
+<graphics>
+<position x="585.0" y="435.0"/>
+</graphics>
+<name>
+<value>Cadastrar funcionários</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cadastrar novo cardápio">
+<graphics>
+<position x="135.0" y="435.0"/>
+</graphics>
+<name>
+<value>Cadastrar novo cardápio</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cadastrar refeição">
+<graphics>
+<position x="1035.0" y="435.0"/>
+</graphics>
+<name>
+<value>Cadastrar refeição</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cardápio Cadastrado">
+<graphics>
+<position x="135.0" y="555.0"/>
+</graphics>
+<name>
+<value>Cardápio Cadastrado</value>
+<graphics>
+<offset x="1.0" y="-1.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cardápio Editado">
+<graphics>
+<position x="270.0" y="555.0"/>
+</graphics>
+<name>
+<value>Cardápio Editado</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Cardápio Excluído">
+<graphics>
+<position x="420.0" y="555.0"/>
+</graphics>
+<name>
+<value>Cardápio Excluído</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Editar cardápio">
+<graphics>
+<position x="270.0" y="435.0"/>
+</graphics>
+<name>
+<value>Editar cardápio</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Editar funcionários">
+<graphics>
+<position x="720.0" y="435.0"/>
+</graphics>
+<name>
+<value>Editar funcionários</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Editar refeição">
+<graphics>
+<position x="1170.0" y="435.0"/>
+</graphics>
+<name>
+<value>Editar refeição</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Excluir cardápio">
+<graphics>
+<position x="420.0" y="435.0"/>
+</graphics>
+<name>
+<value>Excluir cardápio</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Excluir fornecedor">
+<graphics>
+<position x="1605.0" y="435.0"/>
+</graphics>
+<name>
+<value>Excluir fornecedor</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id=" Excluir funcionários">
+<graphics>
+<position x="870.0" y="435.0"/>
+</graphics>
+<name>
+<value> Excluir funcionários</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id=" Excluir refeição">
+<graphics>
+<position x="1320.0" y="435.0"/>
+</graphics>
+<name>
+<value> Excluir refeição</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fornecedor Cadastrado">
+<graphics>
+<position x="1470.0" y="555.0"/>
+</graphics>
+<name>
+<value>Fornecedor Cadastrado</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fornecedor Excluído">
+<graphics>
+<position x="1605.0" y="555.0"/>
+</graphics>
+<name>
+<value>Fornecedor Excluído</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Funcionário Cadastrado">
+<graphics>
+<position x="585.0" y="555.0"/>
+</graphics>
+<name>
+<value>Funcionário Cadastrado</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Funcionário Editado">
+<graphics>
+<position x="720.0" y="555.0"/>
+</graphics>
+<name>
+<value>Funcionário Editado</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Funcionário Excluído">
+<graphics>
+<position x="870.0" y="555.0"/>
+</graphics>
+<name>
+<value>Funcionário Excluído</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Gerenciamento de cardápio">
+<graphics>
+<position x="270.0" y="225.0"/>
+</graphics>
+<name>
+<value>Gerenciamento de cardápio</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Gerenciamento de fornecedores">
+<graphics>
+<position x="1530.0" y="225.0"/>
+</graphics>
+<name>
+<value>Gerenciamento de fornecedores</value>
+<graphics>
+<offset x="1.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Gerenciamento de Funcionários">
+<graphics>
+<position x="720.0" y="225.0"/>
+</graphics>
+<name>
+<value>Gerenciamento de Funcionários</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Gerenciamento de refeições">
+<graphics>
+<position x="1170.0" y="225.0"/>
+</graphics>
+<name>
+<value>Gerenciamento de refeições</value>
+<graphics>
+<offset x="1.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Refeição Cadastrada">
+<graphics>
+<position x="1035.0" y="555.0"/>
+</graphics>
+<name>
+<value>Refeição Cadastrada</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Refeição Editada">
+<graphics>
+<position x="1170.0" y="555.0"/>
+</graphics>
+<name>
+<value>Refeição Editada</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Refeição Excluída">
+<graphics>
+<position x="1320.0" y="555.0"/>
+</graphics>
+<name>
+<value>Refeição Excluída</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Tela de login">
+<graphics>
+<position x="870.0" y="45.0"/>
+</graphics>
+<name>
+<value>Tela de login</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="Cadastrar C">
+<graphics>
+<position x="135.0" y="495.0"/>
+</graphics>
+<name>
+<value>Cadastrar C</value>
+<graphics>
+<offset x="-5.0" y="34.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Cadastrar F">
+<graphics>
+<position x="585.0" y="495.0"/>
+</graphics>
+<name>
+<value>Cadastrar F</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Cadastrar FO">
+<graphics>
+<position x="1470.0" y="495.0"/>
+</graphics>
+<name>
+<value>Cadastrar FO</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Cadastrar R">
+<graphics>
+<position x="1035.0" y="495.0"/>
+</graphics>
+<name>
+<value>Cadastrar R</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Editar C">
+<graphics>
+<position x="270.0" y="495.0"/>
+</graphics>
+<name>
+<value>Editar C</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Editar F">
+<graphics>
+<position x="720.0" y="495.0"/>
+</graphics>
+<name>
+<value>Editar F</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Editar R">
+<graphics>
+<position x="1170.0" y="495.0"/>
+</graphics>
+<name>
+<value>Editar R</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Excluir C">
+<graphics>
+<position x="420.0" y="495.0"/>
+</graphics>
+<name>
+<value>Excluir C</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Excluir F">
+<graphics>
+<position x="870.0" y="495.0"/>
+</graphics>
+<name>
+<value>Excluir F</value>
+<graphics>
+<offset x="-4.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Excluir FO">
+<graphics>
+<position x="1605.0" y="495.0"/>
+</graphics>
+<name>
+<value>Excluir FO</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Excluir R">
+<graphics>
+<position x="1320.0" y="495.0"/>
+</graphics>
+<name>
+<value>Excluir R</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu cadastro C">
+<graphics>
+<position x="135.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu cadastro C</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu cadastro F">
+<graphics>
+<position x="585.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu cadastro F</value>
+<graphics>
+<offset x="-4.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu cadastro R">
+<graphics>
+<position x="1035.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu cadastro R</value>
+<graphics>
+<offset x="-4.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu cardápio">
+<graphics>
+<position x="270.0" y="120.0"/>
+</graphics>
+<name>
+<value>Menu cardápio</value>
+<graphics>
+<offset x="-5.0" y="34.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu edição C">
+<graphics>
+<position x="270.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu edição C</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu edição F">
+<graphics>
+<position x="720.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu edição F</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu edição FO">
+<graphics>
+<position x="1470.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu edição FO</value>
+<graphics>
+<offset x="-4.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu edição R">
+<graphics>
+<position x="1170.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu edição R</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu exclusão C">
+<graphics>
+<position x="420.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu exclusão C</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu exclusão F">
+<graphics>
+<position x="870.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu exclusão F</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu exclusão FO">
+<graphics>
+<position x="1605.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu exclusão FO</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu exclusão R">
+<graphics>
+<position x="1320.0" y="360.0"/>
+</graphics>
+<name>
+<value>Menu exclusão R</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu fornecedor">
+<graphics>
+<position x="1530.0" y="150.0"/>
+</graphics>
+<name>
+<value>Menu fornecedor</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu funcionário">
+<graphics>
+<position x="720.0" y="135.0"/>
+</graphics>
+<name>
+<value>Menu funcionário</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Menu refeição">
+<graphics>
+<position x="1170.0" y="150.0"/>
+</graphics>
+<name>
+<value>Menu refeição</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="Cadastrar C to Cardápio Cadastrado" source="Cadastrar C" target="Cardápio Cadastrado">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="147" y="522" curvePoint="false"/>
+<arcpath id="001" x="147" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Cadastrar novo cardápio to Cadastrar C" source="Cadastrar novo cardápio" target="Cadastrar C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="147" y="462" curvePoint="false"/>
+<arcpath id="001" x="147" y="462" curvePoint="false"/>
+<arcpath id="002" x="147" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Editar cardápio to Editar C" source="Editar cardápio" target="Editar C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="461" curvePoint="false"/>
+<arcpath id="001" x="282" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Editar C to Cardápio Editado" source="Editar C" target="Cardápio Editado">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="522" curvePoint="false"/>
+<arcpath id="001" x="282" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Excluir cardápio to Excluir C" source="Excluir cardápio" target="Excluir C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="432" y="461" curvePoint="false"/>
+<arcpath id="001" x="432" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Excluir C to Cardápio Excluído" source="Excluir C" target="Cardápio Excluído">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="432" y="522" curvePoint="false"/>
+<arcpath id="001" x="432" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gerenciamento de cardápio to Menu cadastro C" source="Gerenciamento de cardápio" target="Menu cadastro C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="271" y="247" curvePoint="false"/>
+<arcpath id="001" x="151" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gerenciamento de cardápio to Menu edição C" source="Gerenciamento de cardápio" target="Menu edição C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="251" curvePoint="false"/>
+<arcpath id="001" x="282" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gerenciamento de cardápio to Menu exclusão C" source="Gerenciamento de cardápio" target="Menu exclusão C">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="292" y="247" curvePoint="false"/>
+<arcpath id="001" x="426" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gerenciamento de fornecedores to Menu edição FO" source="Gerenciamento de fornecedores" target="Menu edição FO">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1535" y="250" curvePoint="false"/>
+<arcpath id="001" x="1482" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Gerenciamento de fornecedores to Menu exclusão FO" source="Gerenciamento de fornecedores" target="Menu exclusão FO">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1550" y="249" curvePoint="false"/>
+<arcpath id="001" x="1617" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu cadastro C to Cadastrar novo cardápio" source="Menu cadastro C" target="Cadastrar novo cardápio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="147" y="387" curvePoint="false"/>
+<arcpath id="001" x="147" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu cardápio to Gerenciamento de cardápio" source="Menu cardápio" target="Gerenciamento de cardápio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="147" curvePoint="false"/>
+<arcpath id="001" x="282" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu edição C to Editar cardápio" source="Menu edição C" target="Editar cardápio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="282" y="387" curvePoint="false"/>
+<arcpath id="001" x="282" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu exclusão C to Excluir cardápio" source="Menu exclusão C" target="Excluir cardápio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="432" y="387" curvePoint="false"/>
+<arcpath id="001" x="432" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu fornecedor to Gerenciamento de fornecedores" source="Menu fornecedor" target="Gerenciamento de fornecedores">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1542" y="177" curvePoint="false"/>
+<arcpath id="001" x="1542" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu funcionário to Gerenciamento de Funcionários" source="Menu funcionário" target="Gerenciamento de Funcionários">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="732" y="162" curvePoint="false"/>
+<arcpath id="001" x="732" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Menu refeição to Gerenciamento de refeições" source="Menu refeição" target="Gerenciamento de refeições">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1182" y="177" curvePoint="false"/>
+<arcpath id="001" x="1182" y="222" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P10 to T6" source="Gerenciamento de Funcionários" target="Menu cadastro F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="721" y="247" curvePoint="false"/>
+<arcpath id="001" x="601" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P10 to T7" source="Gerenciamento de Funcionários" target="Menu edição F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="732" y="251" curvePoint="false"/>
+<arcpath id="001" x="732" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P10 to T8" source="Gerenciamento de Funcionários" target="Menu exclusão F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="742" y="247" curvePoint="false"/>
+<arcpath id="001" x="876" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P11 to T9" source="Cadastrar funcionários" target="Cadastrar F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="597" y="462" curvePoint="false"/>
+<arcpath id="001" x="597" y="462" curvePoint="false"/>
+<arcpath id="002" x="597" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P13 to T10" source="Editar funcionários" target="Editar F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="732" y="461" curvePoint="false"/>
+<arcpath id="001" x="732" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P15 to T11" source=" Excluir funcionários" target="Excluir F">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="882" y="461" curvePoint="false"/>
+<arcpath id="001" x="882" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P15 to T12" source="Gerenciamento de refeições" target="Menu cadastro R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1171" y="247" curvePoint="false"/>
+<arcpath id="001" x="1051" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P15 to T13" source="Gerenciamento de refeições" target="Menu edição R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1182" y="251" curvePoint="false"/>
+<arcpath id="001" x="1182" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P15 to T14" source="Gerenciamento de refeições" target="Menu exclusão R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1192" y="247" curvePoint="false"/>
+<arcpath id="001" x="1326" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P16 to T15" source="Cadastrar refeição" target="Cadastrar R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1047" y="462" curvePoint="false"/>
+<arcpath id="001" x="1047" y="462" curvePoint="false"/>
+<arcpath id="002" x="1047" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P18 to T16" source="Editar refeição" target="Editar R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1182" y="461" curvePoint="false"/>
+<arcpath id="001" x="1182" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P20 to T17" source=" Excluir refeição" target="Excluir R">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1332" y="461" curvePoint="false"/>
+<arcpath id="001" x="1332" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P23 to T21" source="Cadastrar fornecedor" target="Cadastrar FO">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1482" y="462" curvePoint="false"/>
+<arcpath id="001" x="1482" y="462" curvePoint="false"/>
+<arcpath id="002" x="1482" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P27 to T23" source="Excluir fornecedor" target="Excluir FO">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1617" y="461" curvePoint="false"/>
+<arcpath id="001" x="1617" y="492" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T10 to P14" source="Editar F" target="Funcionário Editado">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="732" y="522" curvePoint="false"/>
+<arcpath id="001" x="732" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T11 to P16" source="Excluir F" target="Funcionário Excluído">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="882" y="522" curvePoint="false"/>
+<arcpath id="001" x="882" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T12 to P16" source="Menu cadastro R" target="Cadastrar refeição">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1047" y="387" curvePoint="false"/>
+<arcpath id="001" x="1047" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T13 to P18" source="Menu edição R" target="Editar refeição">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1182" y="387" curvePoint="false"/>
+<arcpath id="001" x="1182" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T14 to P20" source="Menu exclusão R" target=" Excluir refeição">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1332" y="387" curvePoint="false"/>
+<arcpath id="001" x="1332" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T15 to P17" source="Cadastrar R" target="Refeição Cadastrada">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1047" y="522" curvePoint="false"/>
+<arcpath id="001" x="1047" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T16 to P19" source="Editar R" target="Refeição Editada">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1182" y="522" curvePoint="false"/>
+<arcpath id="001" x="1182" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T17 to P21" source="Excluir R" target="Refeição Excluída">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1332" y="522" curvePoint="false"/>
+<arcpath id="001" x="1332" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T18 to P23" source="Menu edição FO" target="Cadastrar fornecedor">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1482" y="387" curvePoint="false"/>
+<arcpath id="001" x="1482" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T20 to P27" source="Menu exclusão FO" target="Excluir fornecedor">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1617" y="387" curvePoint="false"/>
+<arcpath id="001" x="1617" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T21 to P24" source="Cadastrar FO" target="Fornecedor Cadastrado">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1482" y="522" curvePoint="false"/>
+<arcpath id="001" x="1482" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T23 to P28" source="Excluir FO" target="Fornecedor Excluído">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1617" y="522" curvePoint="false"/>
+<arcpath id="001" x="1617" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T6 to P11" source="Menu cadastro F" target="Cadastrar funcionários">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="597" y="387" curvePoint="false"/>
+<arcpath id="001" x="597" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T7 to P13" source="Menu edição F" target="Editar funcionários">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="732" y="387" curvePoint="false"/>
+<arcpath id="001" x="732" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T8 to P15" source="Menu exclusão F" target=" Excluir funcionários">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="882" y="387" curvePoint="false"/>
+<arcpath id="001" x="882" y="432" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T9 to P12" source="Cadastrar F" target="Funcionário Cadastrado">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="597" y="522" curvePoint="false"/>
+<arcpath id="001" x="597" y="552" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tela de login to Menu cardápio" source="Tela de login" target="Menu cardápio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="867" y="58" curvePoint="false"/>
+<arcpath id="001" x="286" y="132" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tela de login to Menu fornecedor" source="Tela de login" target="Menu fornecedor">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="896" y="59" curvePoint="false"/>
+<arcpath id="001" x="1536" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tela de login to Menu funcionário" source="Tela de login" target="Menu funcionário">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="869" y="64" curvePoint="false"/>
+<arcpath id="001" x="736" y="147" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tela de login to Menu refeição" source="Tela de login" target="Menu refeição">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="896" y="62" curvePoint="false"/>
+<arcpath id="001" x="1176" y="162" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
